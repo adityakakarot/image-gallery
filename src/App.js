@@ -33,7 +33,7 @@ function App() {
     <div className="App">
       <div className="wrapper">
         {
-          images.map((image) => <img src={image} />)
+          images.map((image) => <img src={image.src} />)
         }
       </div>
     </div>
